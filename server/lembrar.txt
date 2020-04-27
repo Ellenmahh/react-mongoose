@@ -1,0 +1,8 @@
+config: Arquivos relacionados a configuração do banco de dados.
+controllers: Definição das controllers que serão passadas para as rotas.
+models: Modelos do banco.
+routes: Definição dos endpoints da API
+express é um framework que visa facilitar a criação de APIs utilizando node.
+body-parser é responsável por transformar a requisição do cliente em um objeto JSON e o tornar acessível através do req.body
+nodemon é opcional, porém extremamente recomendado para desenvolvimento, já que qualquer alteração no código reinicia o servidor. Removendo a necessidade de fazer isso manualmente.
+Caso não queira utilizar, para iniciar o servidor utilize o comando node server.js.
